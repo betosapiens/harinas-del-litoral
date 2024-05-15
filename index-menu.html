@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="IE=edge"
+    />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>¿Con qué harina se prepara?</title>
+    <!-- main css -->
+    <link
+      rel="stylesheet"
+      href="./main-menu.css"
+    />
+    
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <section class="menu">
+      <!-- title -->
+      <div class="title">
+        <h1
+          class="title-text"
+          data-heading="harinas del litoral"
+        >
+          <span
+            contenteditable
+            data-heading="harinas del litoral"
+            >harinas del litoral</span
+          >
+        </h1>       
+      </div>
+      <!-- end of title -->
+
+      <!-- filter buttons -->
+      <div class="btn-container"></div>
+      <!-- End of filter buttons -->
+
+      <div class="section-center-menu"></div>
+    </section>
+
+    <!-- GROCERY BUD -->
+
+    <section class="section-center">
+      <!-- form -->
+      <form class="grocery-form">
+        <div class="alert"></div>
+        <h4>Lista de compras</h4>
+        <div class="form-row">
+          <input
+            type="text"
+            id="grocery"
+            class="form-input"
+            placeholder="ej harina"
+          />
+          <button
+            type="submit"
+            class="btn submit-btn text-small"
+          >
+            submit
+          </button>
+        </div>
+      </form>
+      <!-- list -->
+      <div class="grocery-container">
+        <!-- list item -->
+        <div class="grocery-list"></div>
+
+        <!-- clear btn -->
+        <footer class="btn-footer">
+          <button
+            type="button"
+            class="grocery-clear-btn text-small"
+          >
+            clear item
+          </button>
+          <button
+            id="saveList"
+            class="btn-print"
+          >
+            <img
+              src="./img/print.svg"
+              alt="print"
+              class="btn-print-img"
+            />
+          </button>
+        </footer>
+      </div>
+    </section>
+
+    <script
+      type="module"
+      src="./app-menu.js"
+    ></script>
+    <script src="./app-Grocery.js"></script>
+  </body>
+</html>

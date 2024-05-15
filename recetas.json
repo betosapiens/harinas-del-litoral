@@ -1,0 +1,92 @@
+ [
+  {
+    "id": "1",
+    "title": "Chipa Guazú",
+    "category": "harina de maíz",
+    "price": "1.500",
+    "img": "./img/Chipa_guasu.jpg",
+    "desc": "El chipa guazú o chipa guasú, es una torta de maíz típica de los guaraníes, que se suele preparar para acompañar los asados de carne junto a la yuca frita.",
+    "ingredients": "- 1 kilo de choclo tierno<br> - 5 huevos<br> - 1 taza de leche<br> - ½ taza de manteca<br> - 2 cebollas<br> - 300 gramos de queso Paraguay<br> - Sal y pimienta al gusto<br>",
+    "preparation": "Licuar choclo, huevos, cebolla, aceite y leche. Agregar queso desmenuzado, sal al gusto. Verter en molde engrasado. Hornear a 180° por 45 min.",
+    "url":"https://www.youtube.com/watch?v=ipBODTICzrE&t=9s"
+  },
+  {
+    "id": "2",
+    "title": "Vori-vori",
+    "category": "harina de maíz",
+    "price": "2.000",
+    "img": "./img/Bori_Bori.jpg",
+    "desc": "El vorí vorí es un caldo con bolitas de harina de maíz y queso. Es una adaptación de un plato del pésaj hebreo, donde se reemplaza la sémola de trigo por harina de maíz.",
+    "ingredients": "- 1 Pollo cortado en trozos<br> - 1 Locote rojo<br> - 2 Tomates<br> - 1 Cebolla<br> - 1 Cebolla de verdeo<br> - 2 tazas de Harina de maíz<br> - 150 gramos de Queso paraguay<br> - 1 cuchara de Orégano<br> - 2 ½ litros de Agua<br> - Sal y pimienta al gusto<br>",
+    "preparation": "Dorar pollo, añadir a agua hirviendo con verduras. Hacer bolitas de maíz y queso, añadir al caldo. Cocinar hasta que el pollo esté tierno",
+    "url":"https://www.youtube.com/watch?v=jE6KwgtD7yI"
+  },
+  {
+    "id": "3",
+    "title": "Sopa paraguaya",
+    "category": "harina de maíz",
+    "price": "2.000",
+    "img": "./img/Sopa_paraguaya.jpg",
+    "desc": "Este plato es muy tradicional y emblemático en Paraguay, se trata de un pastel salado y esponjoso, realizado principalmente a base de harina de maíz. Es delicioso y fácil de preparar.",
+    "ingredients": "- 300g de harina de maíz<br> - 1/2 litro de leche<br> - 3 cebollas grandes<br> - 4 huevos<br> - 400g de queso que se derrita (cremoso, mozzarella, etc.)<br> - 1 cucharadita de orégano<br> - Sal, pimienta, aceite1<br>",
+    "preparation": "Sofreír cebolla, batir huevos con leche, añadir harina de maíz, cebolla y queso. Hornear a 200°C por 30 min",
+    "url":"https://www.youtube.com/watch?v=XMur7aWyCH8"
+  },
+  {
+    "id": "4",
+    "title": "Chipa almidón",
+    "category": "Almidón de mandioca",
+    "price": "2.000",
+    "img": "./img/Chipa almidón.jpg",
+    "desc": "El chipá, originario del pan guaraní mbujape, se hace con almidón de mandioca y queso semicurado. Es un plato tradicional en Paraguay, Argentina y Brasil con muchas variedades.",
+    "ingredients": "- 1 kilo de almidón de mandioca<br> - 250 gramos de manteca o grasa de cerdo<br> - 5 huevos<br> - 500 gramos de queso Paraguay<br> - 200 ml de leche entera<br> - 1 cucharadita de anís<br> - 1 cucharada colmada de sal<br>",
+    "preparation": "Mezclar almidón de mandioca, queso, manteca, huevos, leche, sal y polvo para hornear. Formar bolitas, hornear a 180°C por 20 min",
+    "url":"https://youtu.be/qoQSPfG4C8c"
+  },
+  {
+    "id": "5",
+    "title": "Mbejú",
+    "category": "Almidón de mandioca",
+    "price": "2.000",
+    "img": "./img/mbejú.jpeg",
+    "desc": "Mbejú, plato paraguayo de influencia guaraní y jesuita. Hecho con almidón de mandioca, queso y mantequilla, se disfruta en desayunos con mate o café.",
+    "ingredients": "- 500 gramos de almidón de mandioca<br> - 250 gramos de queso medio curado cremoso<br> - 200 gramos de margarina<br> - 1 cucharada sopera de sal1<br>",
+    "preparation": "Mezclar almidón de mandioca, queso, manteca, huevo, leche y sal. Cocinar en sartén hasta dorar ambos lados",
+    "url":"https://youtu.be/yhs-o1WR0Jc"
+  },
+  {
+    "id": "6",
+    "title": "Chipa Mestizo",
+    "category": "harina de maíz",    
+    "price": "2.000",
+    "img": "./img/Chipa_Mestizo.webp",
+    "desc": "Variante de Chipa Almidón paraguaya con harina de maíz, huevos caseros, grasa de cerdo y Queso Paraguay como ingredientes principales.",
+    "ingredients": "- 1 kg de almidón de mandioca<br> - 300 grs de harina de maíz<br> - 300 grs de grasa de cerdo<br> - 5 huevos<br> - 500 grs de queso Paraguay estacionado<br> - 1 cucharada al ras de sal<br> - 20 grs de anís en grano<br>",
+    "preparation": "Batir grasa de cerdo, añadir huevos, anís, queso, harinas de maíz y mandioca. Formar bolitas, hornear a 180°C por 15-20 min",
+    "url":"https://youtu.be/J24FsdRazkY"
+  },
+  {
+    "id": "7",
+    "title": "Reviro",
+    "category": "harina de trigo",
+    "price": "2.000",
+    "img": "./img/reviro.jpg",
+    "desc": "Reviro, plato versátil para días fríos. Se le puede añadir huevo, carne, salsa, incluso azúcar. Se acompaña con matecocido o mate.",
+    "ingredients": "- 1 kilogramo de harina<br> - 1 cucharada de sal fina<br> - 2 huevos<br> - 200 cc de agua<br> - 100/150 cc de aceite de girasol<br>",
+    "preparation": "Mezclar harina, sal y agua hasta formar una masa. Cocinar en sartén con aceite, romper la masa hasta obtener migajas",
+    "url":"https://youtu.be/3eJACZN__Ic"
+  },
+  {
+    "id": "8",
+    "title": "Chipa Cuerito",
+    "category": "harina de trigo",
+    "price": "2.000",
+    "img": "./img/chipa_cuerito.jpg",
+    "desc": "Pireca en Paraguay, torta frita o chipa cuerito en Argentina. Masa frita de harina, agua y sal, cocida en grasa. Acompaña al matecocido.",
+    "ingredients": "- 500 gramos de harina 0000<br> - 1 cucharada de sal<br> - 2 cucharadas de grasa vacuna<br> - 1 cucharadita de polvo de hornear<br> - 1 taza de agua tibia<br>",
+    "preparation": "Mezclar almidón de mandioca, queso, huevos, manteca, sal y polvo para hornear. Formar bolitas, hacer un agujero en el centro, freír hasta dorar",
+    "url":"https://www.tiktok.com/@emibaezcristaldo/video/7260129960990379269?is_from_webapp=1&sender_device=pc"
+  }
+]
+
+
