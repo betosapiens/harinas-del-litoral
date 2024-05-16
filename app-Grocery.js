@@ -80,14 +80,17 @@ function clearItems (){
 function deleteItem(e){
     const element = e.currentTarget.parentElement.parentElement;
     const id = element.dataset.id;
-    list.removeChild(element);
-    if (list.children.length === 0) {
-        container.classList.remove("show-container")
-    }
-    displayAlert('item removed', "danger");
-    setBackToDefault();
-    // remove from local storage
-    removeFromLocalStorage(id);
+    element.classList.add('deleting');  /*****/
+    element.addEventListener('transitionend', function() { /*****/
+        list.removeChild(element);
+        if (list.children.length === 0) {
+            container.classList.remove("show-container")
+        }
+        displayAlert('item removed', "danger");
+        setBackToDefault();
+        
+        removeFromLocalStorage(id);
+    });
 
 }
 
@@ -164,7 +167,7 @@ function setupItems(){
 function createListItem(id,value){
     const element = document.createElement("article");
     // add class
-    element.classList.add("grocery-item");
+    element.classList.add("grocery-item","creating");
     //add id
     const attr = document.createAttribute("data-id");
     attr.value = id;
@@ -180,6 +183,7 @@ function createListItem(id,value){
         </button>
         </div>`;
 
+    
     const deleteBtn = element.querySelector(".delete-btn");
     const editBtn = element.querySelector(".edit-btn");
     deleteBtn.addEventListener('click', deleteItem);
@@ -187,6 +191,7 @@ function createListItem(id,value){
 
     //append child
     list.appendChild(element);
+    setTimeout(() => element.classList.remove('creating'), 0);
 }
 
 
