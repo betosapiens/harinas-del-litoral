@@ -213,9 +213,9 @@ function saveListToTxtFile() {
     let url = URL.createObjectURL(blob);
     let link = document.createElement('a');
     link.href = url;
-    link.download = 'GroceryList.txt';
+    link.download = 'Lista de Compras.txt';
     
-    document.body.appendChild(link);
+    document.body.appendChild(link); 
     
     link.click();
     
